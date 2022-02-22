@@ -1,0 +1,18 @@
+#cajainfo {
+  display: flex;
+}
+
+#infouni {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#video {
+  text-align: center;
+}
+
+#botonnuestrosgrados {
+  position: relative;
+  bottom: -42%;
+  left: 0;
+}

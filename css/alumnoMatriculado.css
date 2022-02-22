@@ -1,0 +1,69 @@
+#encabezadoAlumno{
+  height: 100px;
+  display: flex;
+}
+
+#fotoAlumno{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#datosalumno{
+  margin-top: 10px;
+  list-style-type: none;
+  width: 20%;
+}
+
+#nota{
+  margin-left: 60%;
+  display: flex;
+  height: 40px;
+  width: 20%;
+  background-color: burlywood;
+  margin-top: 20px;
+}
+
+#notaMedia{
+  margin-left: 20px;
+}
+
+#numeroNota{
+  margin-left: 20px;
+  font-size: 30px;
+  padding: 0;
+  margin-top: -25px;
+}
+
+.asigCurso{
+  margin-top: 10px;
+}
+
+#nombreGrado{
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 35%;
+  background-color: burlywood;
+}
+
+#tituloGrado, #tituloHorario{
+  margin-left: 20px;
+}
+
+#horario{
+  width: 65%;
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: burlywood;
+}
+
+#cajasecundariaalumnos{
+  display: flex;
+}
+
+#botonanularmatricula{
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}

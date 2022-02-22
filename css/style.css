@@ -8,7 +8,6 @@
 }
 
 #noticias2{
-
   flex-basis: 40%;
   padding-bottom: 20px;
 }
@@ -19,14 +18,12 @@
 
 #otrasnoticias2{
   list-style-type: none;
-
   padding-left: 0px;
   padding-right: 0px;
   margin-bottom: fill;
 }
 
 #noticia1{
-
   margin-left: 20px;
   margin-right: 20px;
   height: 80px;
@@ -34,7 +31,6 @@
 }
 
 #noticia2{
-
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 30px;
@@ -43,11 +39,9 @@
 }
 
 #caja2{
-
   margin: 50px;
   display: flex;
 }
-
 
 #enlaces{
   flex-basis: 50%;

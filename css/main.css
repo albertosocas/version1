@@ -5,9 +5,10 @@ header {
   background-color: rgb(51, 138, 149);
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
-#logo{
+
+#fotoUT{
+  margin-top: 3px;
 }
 #encabezado {
   display: flex;
@@ -15,22 +16,22 @@ header {
   height: 50px;
   align-items: center;
   width: 100%;
-  justify-content: space-between;
 }
 
 #titulo {
-  font-size: 10px;
-  height: 50px;
-  color: black;
-  flex-basis: 50%;
-  margin-top: 0px;
-  padding-top: 0px;
+  margin-left: 50px;
+  width: 30%;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 30px;
 }
 
 #buscador{
   display:flex;
   flex-basis: 30%;
   margin-right: 50px;
+  margin-left: 30%;
   height: 50px;
   align-items: center;
   justify-content: space-between;

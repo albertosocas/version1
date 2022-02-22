@@ -1,0 +1,61 @@
+#principal{
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#asignatura{
+  margin-left: 50px;
+  width: 30%;
+}
+
+#nombreCodigo{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#datosasignatura, #datosprofesores{
+  background-color: burlywood;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+#profesorado{
+  float: right;
+  margin-right: 50px;
+  width: 30%;
+}
+
+.datos{
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.objetivo{
+  margin-top: 20px;
+}
+
+.profesor{
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+#tituloprofesor{
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+#objetivos{
+  margin: 70px;
+}
+
+#objetivosconjuntos{
+  background-color: burlywood;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,99 @@
+#encabezadoAlumno{
+  height: 100px;
+  display: flex;
+}
+
+#fotoAlumno{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#datosalumno{
+  margin-top: 10px;
+  list-style-type: none;
+  width: 20%;
+}
+
+#nota{
+  margin-left: 60%;
+  display: flex;
+  height: 40px;
+  width: 20%;
+  background-color: burlywood;
+  margin-top: 20px;
+}
+
+#notaMedia{
+  margin-left: 20px;
+}
+
+#numeroNota{
+  margin-left: 20px;
+  font-size: 30px;
+  padding: 0;
+  margin-top: -25px;
+}
+
+.asigGrado{
+  margin-top: 10px;
+}
+
+#cajasecundariaalumnos{
+  display: flex;
+}
+#matricularse{
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 25%;
+  background-color: burlywood;
+}
+
+#tituloGrado, #tituloMatricularse{
+  margin-left: 20px;
+}
+
+#botonmatricularse {
+  margin-right: 20px;
+  float: right;
+}
+
+#nombreGrado{
+  width: 65%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: burlywood;
+}
+
+.Grados {
+  margin:20px auto 40px auto;
+  border:1px solid #d9d9d9;
+  height:30px;
+  overflow: hidden;
+  width: 300px;
+  position:relative;
+}
+select {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  height: 30px;
+  padding: 5px;
+  width: 300px;
+}
+select:focus{ outline: none;}
+
+.Grados::after{
+  content:"\025be";
+  display:table-cell;
+  padding-top:7px;
+  text-align:center;
+  width:30px;
+  height:30px;
+  background-color:#d9d9d9;
+  position:absolute;
+  top:0;
+  right:0px;
+  pointer-events: none;
+}

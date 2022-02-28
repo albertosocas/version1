@@ -38,6 +38,10 @@ header {
   list-style-type: none;
 }
 
+.vinculo{
+  text-decoration: none;
+}
+
 main{
   background-color: #b3d4fc;
   border: solid;

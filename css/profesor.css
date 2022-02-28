@@ -1,0 +1,42 @@
+#encabezadoprofesor{
+  height: 100px;
+  display: flex;
+}
+
+#fotoprofesor{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#datosprofesor{
+  margin-top: 10px;
+  list-style-type: none;
+  width: 20%;
+}
+
+#asignaturaLista{
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width:25%;
+  background-color: burlywood;
+}
+
+#tituloListaAlumnos, #tituloListaAsignaturas, #menudesplegable{
+  margin-left: 20px;
+}
+
+#listaalumnos{
+  width: 75%;
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: burlywood;
+}
+
+#cajasecundariaalumnos{
+  display: flex;
+}
+
+
+

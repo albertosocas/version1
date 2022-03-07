@@ -1,0 +1,40 @@
+/* under 640 px */
+@media screen and (max-width: 40em) {
+  header {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  #buscador_movil {
+    display: flex;
+    float: bottom;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #buscador {
+    display: none;
+  }
+
+  #titulo {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #fotoUT {
+    margin-top: 11px;
+  }
+
+  #fotouni {
+    text-align: center;
+
+  }
+
+  #cajainfo {
+    display: flex;
+    flex-direction: column;
+  }
+}

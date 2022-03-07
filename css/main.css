@@ -38,10 +38,6 @@ header {
   list-style-type: none;
 }
 
-#buscador_movil {
-  display: none;
-}
-
 main{
   background-color: #b3d4fc;
   border: solid;

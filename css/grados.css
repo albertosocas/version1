@@ -1,0 +1,20 @@
+#titulogrados{
+  margin-left: 20px;
+}
+
+.listaGrados, .listaAsignaturas{
+  list-style-type: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 150px;
+  display: flex;
+  background-color: #a4fadb;
+}
+
+.fotoGrado, .fotoAsignatura{
+  margin-top: 15px;
+}
+
+.cajaInfoGrados, .cajaInfoAsignaturas{
+  margin-left: 40px;
+}

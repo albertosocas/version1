@@ -29,7 +29,7 @@ header {
 
 #buscador{
   display:flex;
-  flex-basis: 30%;
+  flex-basis: 300px;
   margin-right: 50px;
   margin-left: 30%;
   height: 50px;
@@ -54,13 +54,18 @@ footer{
   background-color: rgb(51, 138, 149);
 }
 #dir{
-  display: flow;
+  display: flex;
   flex-basis: 25%;
   margin-left: 40px;
 }
 
+#direccion{
+  display: flow;
+}
+
 #mapa{
   margin-top: 20px;
+  margin-left: 40px;
 }
 
 #cont{
@@ -68,4 +73,36 @@ footer{
   flex-basis: 33%;
   margin-left: 40px;
 
+}
+
+@media screen and (min-width:640px) and (max-width:900px) {
+  #encabezado{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #titulo{
+    font-size: 18px;
+    width: 200px;
+    margin-left: 10px;
+    padding-top: 20px;
+  }
+
+  #buscador{
+    margin-left: 5%;
+  }
+
+  .vinculo{
+    justify-content: space-between;
+  }
+
+  footer{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #cont{
+    margin-top: 30px;
+  }
 }

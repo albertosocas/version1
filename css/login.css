@@ -1,12 +1,22 @@
 #login{
-  margin-right: 30%;
-  margin-left: 30%;
-  height: 200px ;
+  height: 200px;
+  margin-left: 20%;
+  margin-right: 20%;
   background-color: #a4fadb;
-
+  border: solid;
+  solid-color: black;
 }
 #titulologin, #tituloregistrarse{
+  margin-left: 20%;
+  margin-right: 20%;
   text-align: center;
+  border: solid;
+  solid-color: black;
+}
+
+#cajalogin{
+  border: solid;
+  solid-color: black;
 }
 
 #tituloregistrarse{
@@ -16,38 +26,40 @@
 .input{
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin-right: 20%;
   margin-left: 20%;
   list-style-type: none;
+  padding-right: 20px;
+  padding-left: 150px;
+
+  border: solid;
+  solid-color: black;
 }
 
-.dni{
-  margin-left: 10%;
+.dni, .fichero, .contraseña{
+  margin-right: 20px;
 }
 
 .formulario{
   margin-right: 5%;
 }
 
-.contraseña{
-  margin-left: -5%;
-}
 
 #botonLogin, #botonRegistro{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
   float: right;
-  margin-right: 40%;
 }
 
 #registro{
-  margin-right: 30%;
-  margin-left: 30%;
-  height: 450px ;
+  height: 500px;
+  margin-left: 20%;
+  margin-right: 20%;
   background-color: #a4fadb;
-  margin-bottom: 50px;
+  border: solid;
+  solid-color: black;
 }
-
-
 
 
 

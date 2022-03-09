@@ -68,7 +68,9 @@ footer{
   display: flow;
   flex-basis: 33%;
   margin-left: 40px;
-
+}
+#buscador_movil{
+  display: none;
 }
 
 @media screen and (min-width:640px) and (max-width:900px) {
@@ -100,5 +102,52 @@ footer{
 
   #cont{
     margin-top: 30px;
+  }
+
+  #buscador_movil{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  header {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  #buscador_movil {
+    display: flex;
+    float: bottom;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .vinculo{
+    color: black;
+  }
+
+  #buscador {
+    display: none;
+  }
+
+  #titulo {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #fotoUT {
+    margin-top: 11px;
+  }
+  #mapa {
+    max-width: 50%;
+    height: auto;
+    clear: top;
+  }
+
+  #footer {
+    width: 100%;
   }
 }

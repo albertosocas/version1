@@ -7,4 +7,18 @@
     display: flex;
     flex-direction: column;
   }
+
+}
+
+/* under 640 px */
+@media screen and (max-width: 40em) {
+
+  #fotouni {
+    text-align: center;
+
+  }
+  #cajainfo {
+    display: flex;
+    flex-direction: column;
+  }
 }

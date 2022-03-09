@@ -5,3 +5,22 @@
   }
 
 }
+
+@media screen and (max-width: 40em) {
+  #login {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .input{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .formulario{
+    flex-basis: 50%;
+  }
+}

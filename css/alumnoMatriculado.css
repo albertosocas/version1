@@ -14,16 +14,17 @@
 }
 
 #nota{
-  margin-left: 50%;
+  margin-left: 20px;
   display: flex;
   height: 40px;
-  width: 20%;
+  width: 200px;
   background-color: burlywood;
   margin-top: 20px;
+
 }
 
 #notaMedia{
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 #numeroNota{

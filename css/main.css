@@ -20,22 +20,22 @@ header {
 
 #titulo {
   margin-left: 50px;
-  width: 30%;
+  width: 500px;
   height: 40px;
   text-align: center;
   padding-top: 10px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #buscador{
   display:flex;
   flex-basis: 300px;
-  margin-right: 50px;
-  margin-left: 30%;
+  margin-right: 20px;
   height: 50px;
   align-items: center;
   justify-content: space-between;
   list-style-type: none;
+  margin-left: 10%;
 }
 
 main{

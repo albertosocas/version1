@@ -1,0 +1,10 @@
+@media screen and (min-width:640px) and (max-width:900px){
+.listaGrados, .listaAsignaturas{
+  solid-color: black;
+}
+
+  .descripcion{
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+}

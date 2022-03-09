@@ -1,0 +1,15 @@
+@media screen and (min-width:640px) and (max-width:900px){
+  #cajasecundariaalumnos{
+    display: flex;
+    flex-direction: column;
+
+  }
+  #nombreGrado{
+    width: 90%;
+  }
+
+  #horario{
+    width: 90%;
+    height: 400px;
+  }
+}

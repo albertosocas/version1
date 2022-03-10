@@ -2,14 +2,14 @@
   margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;
-  height: 300px;
+  height: auto;
   display: flex;
   justify-content: space-between;
 }
 
 #asignatura{
-  margin-left: 50px;
-  width: 30%;
+  margin-left: 10%;
+  width: auto;
 }
 
 #nombreCodigo{
@@ -18,17 +18,24 @@
   padding-left: 50px;
   padding-right: 50px;
 }
+#tituloAsignatura{
+  margin-left: 2%;
+}
 
+#codigoAsignatura{
+  margin-left: 30px;
+}
 #datosasignatura, #datosprofesores{
   background-color: burlywood;
   padding-bottom: 40px;
   padding-top: 20px;
+  padding-right: 50px;
 }
 
 #profesorado{
   float: right;
-  margin-right: 50px;
-  width: 30%;
+  margin-right: 150px;
+  width: auto;
 }
 
 .datos{

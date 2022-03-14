@@ -26,7 +26,7 @@
 #noticia1{
   margin-left: 20px;
   margin-right: 20px;
-  height: 80px;
+  height: auto;
   background-color: #a4fadb;
   padding: 10px;
 }
@@ -35,7 +35,7 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 30px;
-  height: 80px;
+  height: auto;
   background-color: #a4fadb;
   padding: 10px;
 }

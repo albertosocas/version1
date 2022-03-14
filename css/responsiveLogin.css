@@ -12,15 +12,26 @@
     margin-right: 10%;
   }
 
+  #login {
+    align-items: start;
+  }
+
   .input{
     display: flex;
     align-items: center;
     list-style-type: none;
+    margin-left: 0%;
     padding-right: 0px;
     padding-left: 0px;
+    width: auto;
   }
 
   .formulario{
-    flex-basis: 50%;
+    flex-basis: 80%;
+  }
+
+  #registro {
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }

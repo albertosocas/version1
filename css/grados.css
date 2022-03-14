@@ -1,5 +1,5 @@
 #titulogrados{
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .listaGrados, .listaAsignaturas{
@@ -9,6 +9,7 @@
   height: auto;
   display: flex;
   background-color: #a4fadb;
+  padding-bottom: 20px;
 }
 
 .fotoGrado, .fotoAsignatura{

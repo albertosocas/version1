@@ -14,5 +14,26 @@
 }
 
 @media screen and (max-width: 40em){
+  #nota {
+    display: none;
+    width: 0%;
+    flex-direction: column;
+  }
 
+  #datosalumno {
+    width: 100%;
+  }
+
+  #cajasecundariaalumnos{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #matricularse{
+    margin-left: 50px;
+    width: 80%;
+  }
+  #nombreGrado{;
+    width: 80%;
+  }
 }

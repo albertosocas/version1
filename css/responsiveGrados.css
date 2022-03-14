@@ -10,5 +10,27 @@
 }
 
 @media screen and (max-width: 40em){
+  .fotoinfogrado, .fotoinfoasignatura {
+    text-align: center;
+  }
 
+  .imgGrado, .imgAsignatura {
+    width: 100%;
+    height: 100%;
+  }
+  .fotoGrado, .fotoAsignatura {
+    width: 80%;
+    height: auto;
+    align-content: center;
+    margin-left: 10%;
+  }
+  .listaGrados, .listaAsignaturas {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cajaInfoGrados, .cajaInfoAsignaturas{
+    margin-left: 0px;
+  }
 }

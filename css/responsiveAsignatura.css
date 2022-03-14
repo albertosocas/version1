@@ -9,5 +9,33 @@
 }
 
 @media screen and (max-width: 40em){
+  #principal {
+    display: flex;
+    flex-direction: column;
+  }
 
+  #asignatura {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #nombreCodigo {
+    padding-left: 0%;
+  }
+
+  #profesorado {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  #tituloprofesor {
+    margin-left: 0%;
+    margin-bottom: 5%;
+  }
+
+  #objetivos {
+    width: 90%;
+    margin: 5%;
+  }
 }

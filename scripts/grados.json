@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Grado en Ciencia e Ingeniería de datos",
+    "description": "aqui va la descripcion del grado",
+    "asignaturas": ["1","3","5"]
+  },
+
+  {
+    "id": "2",
+    "name": "Grado en Ingeniería Informática",
+    "description": "aqui va la descripcion del grado",
+    "asignaturas": ["1","2","3","4"]
+  },
+
+  {
+    "id": "3",
+    "name": "Grado en Telecomunicaciones",
+    "description": "aqui va la descripcion del grado",
+    "asignaturas": ["2","3","4"]
+  },
+
+  {
+    "id": "4",
+    "name": "Grado en Ingeniería Naval",
+    "description": "aqui va la descripcion del grado",
+    "asignaturas": ["2","6"]
+  }
+]
+

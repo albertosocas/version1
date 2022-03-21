@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Matemáticas",
+    "description": "aqui va la descripcion del grado",
+    "asignaturas": ["1","2"]
+  },
+
+  {
+    "id": "2",
+    "name": "Física",
+    "description": "aqui va la descripcion de la asignatura",
+    "grados": ["2","3","4"]
+  },
+
+  {
+    "id": "3",
+    "name": "Programación",
+    "description": "aqui va la descripcion de la asignatura",
+    "grados": ["1","2","3"]
+  },
+
+  {
+    "id": "4",
+    "name": "Computadores",
+    "description": "aqui va la descripcion de la asignatura",
+    "grados": ["1","2","3"]
+  },
+
+  {
+    "id": "5",
+    "name": "Base de datos",
+    "description": "aqui va la descripcion de la asignatura",
+    "grados": ["1","2"]
+  },
+
+  {
+    "id": "6",
+    "name": "Construcción de barcos",
+    "description": "aqui va la descripcion de la asignatura",
+    "grados": ["4"]
+  }
+]
+

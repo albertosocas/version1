@@ -31,63 +31,41 @@
     </nav>
 
     <main>
-      <div id="cajalogin">
+
         <h2 id="titulologin">Login</h2>
 
         <form id="login" action="" method="post">
-
-          <ul class="input">
-            <li class="fichero"><p>DNI</p></li>
-            <li class="formulario"><input id="textodni" type="text" name="dni" required pattern="[0-9]{8}"></li>
-          </ul>
-
-          <ul class="input">
-            <li class="fichero"><p>Contraseña</p></li>
-            <li class="formulario" ><input id="textocontraseña" type="password" name="contraseña" required pattern="[A-Za-z0-9]{8,12}"></li>
-          </ul>
-          <input id="botonLogin" type="submit" value="Entrar">
+          <div id="caja_login">
+            <input class="formulario" id="textodni" placeholder="Dni" type="text" name="dni" required pattern="[0-9]{8}">
+            <input class="formulario" id="textocontraseña" type="password" placeholder="Contraseña" name="contraseña" required pattern="[A-Za-z0-9]{8,12}">
+            <input id="botonLogin" type="submit" value="Entrar">
+          </div>
         </form>
-      </div>
 
 
       <h2 id="tituloregistrarse">Registrarse</h2>
 
       <form id="registro" action="" method="post">
-        <ul class="input">
-          <li class="fichero"><p>DNI</p></li>
-          <li class="formulario" ><input id="textdni" type="text" name="dniregistro" required pattern="[0-9]{8}"></li>
-        </ul>
+        <div id="caja_registro">
+          <input class="formulario" id="textdni" type="text" placeholder="Dni" name="dniregistro" required pattern="[0-9]{8}">
+          <input class="formulario" id="textocorreo" type="email" placeholder="Correo electrónico" required name="correo">
+          <input class="formulario" id="textonombre" type="text" placeholder="Nombre" name="nombre" required maxlength="20">
+          <input class="formulario" id="textocontraseñaR" type="password" placeholder="Contraseña" name="contraseñaR"  required pattern="[A-Za-z0-9]{8,12}">
+          <input class="formulario" id="textorepcontraseña" type="password" placeholder="Repetir Contraseña" name="repcontraseña" required pattern="[A-Za-z0-9]{8,12}">
+          <input class="formulario" id="textodireccion" placeholder="Dirección" type="text" name="direccion" maxlength="50">
 
-        <ul class="input">
-          <li class="fichero"><p>Correo</p></li>
-          <li class="formulario" ><input id="textocorreo" type="email" required name="correo"></li>
-        </ul>
-
-        <ul class="input">
-          <li class="fichero"><p>Nombre</p></li>
-          <li class="formulario" ><input id="textonombre" type="text" name="nombre" required maxlength="20"></li>
-        </ul>
-        <ul class="input">
-          <li class="fichero"><p>Contraseña</p></li>
-          <li class="formulario" ><input id="textocontraseñaR" type="password" name="contraseñaR"  required pattern="[A-Za-z0-9]{8,12}"></li>
-        </ul>
-        <ul class="input">
-          <li class="fichero"><p>Repetir Contraseña</p></li>
-          <li class="formulario" ><input id="textorepcontraseña" type="password" name="repcontraseña" required pattern="[A-Za-z0-9]{8,12}"></li>
-        </ul>
-        <ul class="input">
-          <li class="fichero"><p>Dirección</p></li>
-          <li class="formulario" ><input id="textodireccion" type="text" name="direccion" maxlength="50"></li>
-        </ul>
-
-        <ul class="input">
-          <li class="fichero"><p>Subir foto de perfil <em>(opcional)</em></p></li>
-          <li class="formulario"><input type="file" name="foto" size="10"></li>
-        </ul>
-        <input id="botonRegistro" type="submit" value="Registrarse">
+          <p>Subir foto de perfil <em>(opcional)</em></p>
+          <input type="file" name="foto" size="10">
+          <input id="botonRegistro" type="submit" value="Registrarse">
+        </div>
       </form>
     </main>
-    <script src="scripts/jquery"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"></script>
+
+    <script src="js/login.js"></script>
 </body>
 <footer>
   <section id="dir">

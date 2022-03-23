@@ -1,5 +1,5 @@
-{
-  "grados": [
+
+[
     {
       "id": "1",
       "img": "img/ingdatos.jpeg",
@@ -49,5 +49,4 @@
       "href": "asignaturasgrado.html"
     }
   ]
-}
 

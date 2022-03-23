@@ -1,10 +1,10 @@
 $(document).ready(function (){
-  $.getJSON( "ajax/test.json", function( data ) {
+  $.getJSON( "scripts/grados.json", function( data ) {
     var items = [];
     $.each( data, function( id, img, name, description, subject, href) {
       items.push( "<ul class=" + "listaGrados" + ">" );
       items.push( " <div class=" + "fotoinfogrado" + ">" );
-      items.push( "   <li class=" + "fotoGrado" + "><a><img class=" + "imgGrado" + "src=" + img + " alt=" + "menu" + "width=" + "120" + " height=" + "120" + "></a></li>" );
+      items.push( "   <li class=" + "fotoGrado" + "><a><img class=" + "imgGrado" + " src=" + img + " alt=" + "menu" + " width=" + "120" + " height=" + "120" + "></a></li>" );
       items.push( " </div>" );
       items.push( " <div class=" + "cajaInfoGrados" + ">" );
       items.push( "  <li><h2>" + name +  "</h2></li>" );
@@ -17,7 +17,7 @@ $(document).ready(function (){
     $( "<ul/>", {
       "class": "listaGrados",
       html: items.join( "" )
-    }).appendTo( "body" );
+    }).appendTo( "main" );
   });
 });
 

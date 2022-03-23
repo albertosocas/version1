@@ -1,42 +1,13 @@
 @media screen and (min-width:640px) and (max-width:900px) {
-
-  .input{
-    margin-left: 0px;
-  }
-
-  #registro{
-
+  #caja_registro, #caja_login{
+    margin-left: 35%;
 
   }
-
 }
 
 @media screen and (max-width: 40em) {
-  #login {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+  #caja_registro, #caja_login{
+    margin-left: 25%;
 
-  #login {
-    align-items: start;
-  }
-
-  .input{
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    margin-left: 0%;
-    padding-right: 0px;
-    padding-left: 0px;
-    width: auto;
-  }
-
-  .formulario{
-    flex-basis: 80%;
-  }
-
-  #registro {
-    margin-left: 10%;
-    margin-right: 10%;
   }
 }

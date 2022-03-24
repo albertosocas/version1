@@ -4,7 +4,8 @@
     "img": "img/mates.jpeg",
     "name": "Matemáticas",
     "description": "aqui va la descripcion del grado",
-    "grados": ["1","2"]
+    "grados": ["1","2"],
+    "href": "asignatura.html"
   },
 
   {
@@ -12,7 +13,8 @@
     "img": "img/fisica.jpeg",
     "name": "Física",
     "description": "aqui va la descripcion de la asignatura",
-    "grados": ["2","3","4"]
+    "grados": ["2","3","4"],
+    "href": "asignatura.html"
   },
 
   {
@@ -20,7 +22,8 @@
     "img": "img/programacion.jpeg",
     "name": "Programación",
     "description": "aqui va la descripcion de la asignatura",
-    "grados": ["1","2","3"]
+    "grados": ["1","2","3"],
+    "href": "asignatura.html"
   },
 
   {
@@ -28,7 +31,8 @@
     "img": "img/computadores.jpeg",
     "name": "Computadores",
     "description": "aqui va la descripcion de la asignatura",
-    "grados": ["1","2","3"]
+    "grados": ["1","2","3"],
+    "href": "asignatura.html"
   },
 
   {
@@ -36,7 +40,8 @@
     "img": "img/ingdatos.jpeg",
     "name": "Base de datos",
     "description": "aqui va la descripcion de la asignatura",
-    "grados": ["1","2"]
+    "grados": ["1","2"],
+    "href": "asignatura.html"
   },
 
   {
@@ -44,7 +49,8 @@
     "img": "img/ingnaval.jpeg",
     "name": "Construcción de barcos",
     "description": "aqui va la descripcion de la asignatura",
-    "grados": ["4"]
+    "grados": ["4"],
+    "href": "asignatura.html"
   }
 ]
 

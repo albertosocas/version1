@@ -8,6 +8,7 @@
   margin-right: 50px;
   height: auto;
   display: flex;
+  flex-direction: column;
   background-color: #a4fadb;
   padding-bottom: 20px;
 }

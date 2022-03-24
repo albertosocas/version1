@@ -24,13 +24,12 @@ $(document).ready(function (){
         items.push("  <li><a href=" + "asignatura.html?idvalue=" + this["id"] + "> Más información </a></li>");
         items.push(" </div>");
         items.push("</ul>");
+
       $( "<ul/>", {
         "class": "listaAsignaturas",
         html: items.join( "" )
       }).appendTo( "main" );
       };
-
-      items = [];
       items = [];
     });
 

@@ -4,6 +4,8 @@ $(document).ready(function (){
 
     $.each( data, function() {
 
+
+
       items.push( "<ul class=" + "listaGrados" + ">" );
       items.push( " <div class=" + "fotoinfogrado" + ">" );
       items.push( "   <li class=" + "fotoGrado" + "><a><img class=" + "imgGrado" + " src=" + this["img"] + " alt=" + "menu" + " width=" + "120" + " height=" + "120" + "></a></li>" );
@@ -15,18 +17,13 @@ $(document).ready(function (){
       items.push( " </div>" );
       items.push( "</ul>" );
 
-
-
-
-      items = [];
-
       $( "<ul/>", {
         "class": "listaGrados",
         html: items.join( "" )
       }).appendTo( "main" );
 
       items = [];
-      items = [];
+
     });
 
   });

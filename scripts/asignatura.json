@@ -4,7 +4,7 @@
     "img": "img/mates.jpeg",
     "name": "Matemáticas",
     "description": "aqui va la descripcion del grado",
-    "asignaturas": ["1","2"],
+    "grados": ["1","2"],
     "href": "asignatura.html"
   },
 

@@ -4,17 +4,17 @@
 
 .listaGrados, .listaAsignaturas{
   list-style-type: none;
-  margin-left: 50px;
+  margin-left: 30px;
   margin-right: 50px;
+  margin-top: 20px;
   height: auto;
   display: flex;
-  flex-direction: column;
   background-color: #a4fadb;
   padding-bottom: 20px;
 }
 
 .fotoGrado, .fotoAsignatura{
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 .cajaInfoGrados, .cajaInfoAsignaturas{

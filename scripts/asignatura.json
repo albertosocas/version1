@@ -3,7 +3,7 @@
     "id": "1",
     "img": "img/mates.jpeg",
     "name": "Matemáticas",
-    "description": "aqui va la descripcion del grado",
+    "description": "aqui va la descripcion de la asignatura",
     "grados": ["1","2"],
     "href": "asignatura.html"
   },
